@@ -1,11 +1,12 @@
 {
-  "name": "rn-apple-healthkit",
+  "name": "rn-apple-healthkit-zen",
   "version": "0.6.3",
   "description": "A React Native package for interacting with Apple HealthKit",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terrillo/rn-apple-healthkit.git"
+    "url": "git+https://github.com/jgranstrom/rn-apple-healthkit-zen.git"
   },
   "keywords": [
     "Apple",
@@ -15,16 +16,18 @@
     "react-native",
     "react",
     "native",
-    "ios"
+    "ios",
+    "TypeScript"
   ],
   "bugs": {
-    "url": "https://github.com/terrillo/rn-apple-healthkit/issues"
+    "url": "https://github.com/jgranstrom/rn-apple-healthkit-zen/issues"
   },
-  "homepage": "https://github.com/terrillo/rn-apple-healthkit",
+  "homepage": "https://github.com/jgranstrom/rn-apple-healthkit-zen",
   "author": "Terrillo Walls",
   "license": "MIT",
   "devDependencies": {
-    "react-native": ">=0.40.0"
+    "@types/react-native": "^0.56.18",
+    "typescript": "^3.0.3"
   },
   "peerDependencies": {
     "react-native": ">=0.40.0"

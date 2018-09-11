@@ -38,6 +38,7 @@ captures
 #
 node_modules/
 npm-debug.log
+lib
 
 # BUCK
 buck-out/
