@@ -1,6 +1,6 @@
 {
   "name": "rn-apple-healthkit-zen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React Native package for interacting with Apple HealthKit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,6 +19,9 @@
     "ios",
     "TypeScript"
   ],
+  "scripts": {
+    "prepare": "tsc"
+  },
   "bugs": {
     "url": "https://github.com/jgranstrom/rn-apple-healthkit-zen/issues"
   },
